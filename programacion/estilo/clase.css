@@ -1,0 +1,194 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Architects Daughter", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cajaPrincipal {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    
+}
+
+.ladoIzq {
+    height: 100%;
+    background-image: url("./img/FondoIzq.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ladoDere {
+    height: 100%;
+    background-image: url("./img/FondoDere.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mid {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 120px;
+}
+
+span {
+    font-weight: 100;
+    font-size: 50px;
+    border-bottom: 10px double #041bb3;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    height: 88.3%;
+}
+
+.lista div {
+    display: flex;
+    align-items: left;
+    line-height: 2.5;
+}
+
+.lista img {
+    margin-right: 20px;
+}
+
+
+.lista a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: #041bb3;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Canva {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Canva img {
+    margin-right: 10px;
+}
+
+.Canva a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.Github {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Github img {
+    margin-right: 10px;
+}
+
+.Github a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.oculto {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    opacity: 0.05;
+    transition: opacity 0.3s ease;
+}
+
+.oculto:hover {
+    opacity: 1;
+}
+
+.atras {
+    position: relative;
+    display: flex;
+    align-items: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+p {
+    font-size: 25px;
+}
+
+form label,
+input {
+    line-height: 1.5;
+    margin-left: 60px;
+    font-size: 24px;
+}
+
+form label {
+    display: flex;
+}
+
+form textarea {
+    margin-left: 60px;
+    font-size: 24px;
+}
+
+.radio-button {
+    font-size: 24px;
+}
+
+.boton {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    grid-column: 1 / 3;
+}
+
+button {
+    padding: 20px 40px;
+    background-color: #041bb3;
+    color: #fff;
+    border: 1px #888;
+    border-radius: 5px;
+}
