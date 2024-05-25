@@ -1,7 +1,7 @@
 ## CRUD Protolo de Ingreso (PARCIAL) PROGRAMACION III
 
 # Datos de la base de datos en MySQL 
-![TablaPersonal](bd.jpg)
+![TablaPersonal](bd.jpeg)
 
 # Menu (Primer Pantalla)
-![Index](Index.php.jpg)
+![Index](Index.php.jpeg)
